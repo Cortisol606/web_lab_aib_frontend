@@ -5,8 +5,7 @@ GET запрос
 
 
 Получили код: 
-
-> ```
+```
 % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                 > Dload  Upload   Total   Spent    Left  Speed
 100   167  100   167    0     0   1925      0 --:--:-- --:--:-- --:--:--  1964HTTP/1.1 301 Moved Permanently
