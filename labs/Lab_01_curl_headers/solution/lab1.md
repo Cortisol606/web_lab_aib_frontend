@@ -1,10 +1,13 @@
 ## Отчет к лабораторной номер 1 "HTTP HTTPS и их параметры"
-GET запрос 
->$ curl http://jetbrains.com -i
-  ffff
 
+GET запрос 
+```
+$ curl http://jetbrains.com -i
+```  
+---
 
 Получили код: 
+
 ```
 % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                 > Dload  Upload   Total   Spent    Left  Speed
@@ -30,6 +33,7 @@ X-Amz-Cf-Id: dNtkl5xmjCnFucagLCPLmkQMzEe976jPYZRMUJzOfIFl8JnhsoEF1g==
 </html>
 ```
 
+---
 
 Описание кода: 
 
