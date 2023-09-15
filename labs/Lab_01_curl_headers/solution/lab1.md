@@ -1,6 +1,7 @@
 ## Отчет к лабораторной номер 1 "HTTP HTTPS и их параметры"
 GET запрос 
 >$ curl http://jetbrains.com -i
+  ffff
 
 
 Получили код: 
