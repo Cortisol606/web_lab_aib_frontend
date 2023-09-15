@@ -8,8 +8,8 @@ GET запрос
 
 >  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                 > Dload  Upload   Total   Spent    Left  Speed
->100   167  100   167    0     0   1925      0 --:--:-- --:--:-- --:--:--  1964HTTP/1.1 301 Moved Permanently
->Server: CloudFront
+/100   167  100   167    0     0   1925      0 --:--:-- --:--:-- --:--:--  1964HTTP/1.1 301 Moved Permanently
+Server: CloudFront
 >Date: Fri, 15 Sep 2023 17:03:59 GMT
 >Content-Type: text/html
 >Content-Length: 167
