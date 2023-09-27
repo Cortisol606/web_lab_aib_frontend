@@ -35,11 +35,22 @@ X-Amz-Cf-Id: dNtkl5xmjCnFucagLCPLmkQMzEe976jPYZRMUJzOfIFl8JnhsoEF1g==
 
 ---
 
-Описание кода: 
+```
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--  
+  1964HTTP/1.1 301 Moved Permanently - запрашиваемый ресурс на постоянной основе переехал на новый адрес. Тогда новый путь к ресурсу указывается сервером в заголовке Location ответа
+Date - дата нашего запроса
+Content-Type: text/html - формат, в котором будут передаваться данные в теле запроса или ответа 
+Connection: keep-alive - постоянное http соединение
+Location: https://jetbrains.com/ - ссылка на сайт, куда мы переходим по коду 301
+X-Cache: Redirect from cloudfront - сайт отправил запрос, который содержал ответ с возможностью кэширования
+Server: cloudflare - сервер стоит на cloudflare
 
->
-
+```
 Вывод: 
-
+```
+Квест выполнен
+```
 
 
