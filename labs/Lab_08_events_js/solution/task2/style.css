@@ -1,0 +1,29 @@
+.container {
+  padding: 50px;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  column-gap: 150px;
+  align-items: center;
+}
+.form_action {
+  font-size: 30px;
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+}
+.form_action input {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.background-color {
+  background-color: aqua;
+  width: 320px;
+  height: 320px;
+}
+p {
+  font-size: 14px;
+  color: red;
+}
