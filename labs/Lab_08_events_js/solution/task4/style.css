@@ -1,0 +1,102 @@
+.container_top {
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  column-gap: 150px;
+  align-items: center;
+}
+.form_action {
+  font-size: 30px;
+  display: flex;
+  max-width: 350px;
+  flex-direction: column;
+}
+.form_action input {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.background-color {
+  background-color: aqua;
+  width: 320px;
+  height: 320px;
+  border: 1px solid black;
+}
+p {
+  font-size: 14px;
+  color: red;
+}
+
+/* Bottom */
+.container_bottom {
+  padding: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 80%;
+  min-height: 100px;
+  min-width: 250px;
+  border: 1px solid black;
+  margin-bottom: 100px;
+}
+.wrapper_bottom {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  column-gap: 10px;
+}
+.block {
+  margin-bottom: 10px;
+  background-color: aqua;
+  min-width: 100px;
+  height: 100px;
+}
+.btn {
+  margin-top: 20px;
+  font-size: 15px !important;
+  max-width: 150px;
+  background-color: blue;
+  color: white;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #1b4454;
+  color: white;
+}
+.next,
+.prev {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.2), 0 -1px rgba(0, 0, 0, 0.8);
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  background: rgb(28, 107, 114)
+    radial-gradient(
+      150% 100% at 50% 5px,
+      rgba(255, 255, 255, 0.2),
+      rgba(0, 0, 0, 0)
+    );
+  box-shadow: inset rgba(0, 0, 0, 0.6) 0 -2px 5px,
+    inset rgba(252, 255, 255, 0.7) 0 2px 5px, rgba(0, 0, 0, 0.8) 0 2px 5px -1px;
+  color: rgb(0, 79, 86);
+  user-select: none;
+}
+.next:hover,
+.prev:hover {
+  color: rgb(0, 59, 66);
+  cursor: pointer;
+}
+.next:active,
+.prev:active {
+  padding-bottom: 1px;
+  box-shadow: inset rgba(0, 0, 0, 1) 0 1px 3px,
+    inset rgba(0, 0, 0, 0.6) 0 -2px 5px,
+    inset rgba(252, 255, 255, 0.7) 0 2px 5px, 0 1px rgba(255, 255, 255, 0.08);
+  color: rgb(128, 207, 214);
+}
