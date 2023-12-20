@@ -1,0 +1,13 @@
+input {
+  all: unset;
+}
+.buttons input {
+  display: block;
+  padding: 20px;
+  margin-top: 10px;
+  min-width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+  border: 3px solid green;
+}
