@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container_top">
+      <form action="" class="form_action">
+        <label for="">Red</label>
+        <input
+          class="inp"
+          type="number"
+          id="inpRed"
+          placeholder="Введите от 0 до 256"
+          min="0"
+          max="255"
+        />
+        <label for="">Green</label>
+        <input
+          type="number"
+          class="inp"
+          id="inpGreen"
+          placeholder="Введите от 0 до 256"
+        />
+        <label for="">Blue</label>
+        <input
+          type="number"
+          id="inpBlue"
+          class="inp"
+          placeholder="Введите от 0 до 256"
+        />
+        <input type="submit" class="btn" value="Сгенерировать" />
+      </form>
+      <div class="background-color"></div>
+    </div>
+    <div class="container_bottom">
+      <div class="wrapper_bottom"></div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
