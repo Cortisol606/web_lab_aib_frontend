@@ -1,0 +1,27 @@
+.red {
+    color: red; /*Ты думал, что это красный? Хах, но это была ловушка Джокера♠*/
+  }
+.red1{
+  color: green; /*Ты думал, что это красный? Хах, но это была ловушка Джокера♠*/
+  }
+  .post {
+    padding: 15px;
+    border: 3px solid black;
+    min-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .post + .post {
+    margin-top: 25px;
+  }
+
+  .postFlex {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  .PostForm {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+  }
